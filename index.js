@@ -63,5 +63,3 @@ app.use("/sellerDetails", protectBuyer, sellerDetails);
 app.listen(5000, () => {
   console.log("Serving in the port 5000");
 });
-
-// Export the Express API
